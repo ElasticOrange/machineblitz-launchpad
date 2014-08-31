@@ -1,0 +1,32 @@
+@font-face {
+  font-family: LocustResistance;
+  src: url('/font/CGF_Locust_Resistance.ttf') format('truetype'); }
+
+* {
+  line-height: 1em; }
+
+.background {
+  background: url('/img/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.title-container {
+  padding-top: 40px;
+  text-align: center; }
+  .title-container .title {
+    font-family: LocustResistance;
+    font-size: 4em;
+    line-height: 1.5em;
+    text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px; }
+  .title-container .description {
+    font-family: Futura, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px; }
+
+.mailing-list {
+  padding-top: 40px; }
+
+/*# sourceMappingURL=style.css.map */
