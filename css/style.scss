@@ -33,7 +33,7 @@
 	{
 		font-family: LocustResistance;
 		
-		font-size: 4em;
+		font-size: 2em;
 		line-height: 1.5em;
 		
 		@include text-shadow();
@@ -42,7 +42,7 @@
 	.description
 	{
 		font-family: Futura, Helvetica, sans-serif;
-		font-size: 2em;
+		font-size: 1.5em;
 		font-weight: bold;
 		
 		@include text-shadow();
@@ -59,4 +59,10 @@
 .spacer
 {
 	padding-top: 400px;
+}
+
+#footer
+{
+	text-align: center;
+	position: relative;
 }

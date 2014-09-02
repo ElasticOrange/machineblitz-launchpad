@@ -17,12 +17,12 @@
   text-align: center; }
   .title-container .title {
     font-family: LocustResistance;
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.5em;
     text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px; }
   .title-container .description {
     font-family: Futura, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px; }
 
@@ -32,5 +32,9 @@
 
 .spacer {
   padding-top: 400px; }
+
+#footer {
+  text-align: center;
+  position: relative; }
 
 /*# sourceMappingURL=style.css.map */
