@@ -13,7 +13,6 @@
   background-size: cover; }
 
 .title-container {
-  padding-top: 40px;
   text-align: center; }
   .title-container .title {
     font-family: LocustResistance;
@@ -31,10 +30,15 @@
   text-align: center; }
 
 .spacer {
-  padding-top: 400px; }
+  padding-top: 300px; }
 
 #footer {
   text-align: center;
   position: relative; }
+
+.logo-container {
+  text-align: center; }
+  .logo-container .logo {
+    height: 100px; }
 
 /*# sourceMappingURL=style.css.map */
