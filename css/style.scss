@@ -14,13 +14,29 @@
 	text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px;
 }
 
-.background
+@media screen and (min-width: 640px)
 {
-	background: url('/img/background.png') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	.background
+	{
+		background: url('/img/background.png') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}	
+		
+	.spacer
+	{
+		padding-top: 300px;
+	} 
+}
+
+@media screen and (max-width: 641px)
+{
+	.background
+	{
+		
+	}	
 }
 
 .title-container
@@ -52,11 +68,6 @@
 	padding-top: 40px;
 	
 	text-align: center;
-}
-
-.spacer
-{
-	padding-top: 300px;
 }
 
 #footer
