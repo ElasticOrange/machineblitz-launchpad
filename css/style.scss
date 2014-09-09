@@ -16,14 +16,30 @@
 	text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px;
 }
 
-.background
+@media only screen and (min-width: 640px)
 {
-	background: url('/img/ghost.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	.background
+	{
+		background: url('/img/ghost.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
+
+@media only screen and (max-width: 640px)
+{
+	.background
+	{
+		background: url('/img/ghost.jpg') no-repeat 70% center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
 
 .spacer
 {
@@ -38,6 +54,8 @@ h4
 .title-container
 {
 	text-align: center;
+	
+	padding-top: 20px;
 
 	.title
 	{
