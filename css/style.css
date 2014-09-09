@@ -1,21 +1,23 @@
 @font-face {
   font-family: LocustResistance;
-  src: url('/font/CGF_Locust_Resistance.ttf') format('truetype'); }
+  src: url("/font/CGF_Locust_Resistance.ttf") format("truetype"); }
 
 * {
-  line-height: 1em; }
+  line-height: 1em;
+  color: white; }
 
-@media only screen and (min-width: 640px) {
-  .background {
-    background: url('/img/background.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-  .spacer {
-    padding-top: 300px; } }
+.background {
+  background: url("/img/ghost.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-@media only screen and (max-width: 641px) { }
+.spacer {
+  padding-top: 300px; }
+
+h4 {
+  color: white; }
 
 .title-container {
   text-align: center; }
@@ -42,5 +44,3 @@
   text-align: center; }
   .logo-container .logo {
     height: 100px; }
-
-/*# sourceMappingURL=style.css.map */

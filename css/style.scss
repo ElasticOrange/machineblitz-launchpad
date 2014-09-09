@@ -1,4 +1,4 @@
-@font-face 
+@font-face
 {
     font-family: LocustResistance;
     src: url('/font/CGF_Locust_Resistance.ttf') format('truetype');
@@ -6,7 +6,9 @@
 
 *
 {
-	line-height: 1em;	
+	line-height: 1em;
+
+	color: white;
 }
 
 @mixin text-shadow()
@@ -14,51 +16,45 @@
 	text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px;
 }
 
-@media only screen and (min-width: 640px)
+.background
 {
-	.background
-	{
-		background: url('/img/background.png') no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}	
-		
-	.spacer
-	{
-		padding-top: 300px;
-	} 
+	background: url('/img/ghost.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-@media only screen and (max-width: 641px)
+.spacer
 {
-	.background
-	{
-		
-	}	
+	padding-top: 300px;
+}
+
+h4
+{
+	color: white;
 }
 
 .title-container
 {
 	text-align: center;
-	
+
 	.title
 	{
 		font-family: LocustResistance;
-		
+
 		font-size: 2em;
 		line-height: 1.5em;
-		
+
 		@include text-shadow();
 	}
-	
+
 	.description
 	{
 		font-family: Futura, Helvetica, sans-serif;
 		font-size: 1.5em;
 		font-weight: bold;
-		
+
 		@include text-shadow();
 	}
 }
@@ -66,7 +62,7 @@
 .mailing-list
 {
 	padding-top: 40px;
-	
+
 	text-align: center;
 }
 
@@ -79,8 +75,9 @@
 .logo-container
 {
 	text-align: center;
+
 	.logo
 	{
 		height: 100px;
-	}	
+	}
 }
