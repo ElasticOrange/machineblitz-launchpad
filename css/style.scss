@@ -26,6 +26,11 @@
 		-o-background-size: cover;
 		background-size: cover;
 	}
+		
+	.spacer
+	{
+		padding-top: 300px;
+	}
 }
 
 @media only screen and (max-width: 640px)
@@ -38,13 +43,14 @@
 		-o-background-size: cover;
 		background-size: cover;
 	}
+	
+	.spacer
+	{
+		padding-top: 100px;
+	}
 }
 
 
-.spacer
-{
-	padding-top: 300px;
-}
 
 h4
 {

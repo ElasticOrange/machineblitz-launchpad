@@ -12,7 +12,9 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; } }
+    background-size: cover; }
+  .spacer {
+    padding-top: 300px; } }
 
 @media only screen and (max-width: 640px) {
   .background {
@@ -20,10 +22,9 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; } }
-
-.spacer {
-  padding-top: 300px; }
+    background-size: cover; }
+  .spacer {
+    padding-top: 100px; } }
 
 h4 {
   color: white; }
