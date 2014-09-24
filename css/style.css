@@ -14,7 +14,9 @@
     -o-background-size: cover;
     background-size: cover; }
   .spacer {
-    padding-top: 300px; } }
+    padding-top: 300px; }
+    .logo-container .logo {
+    height: 100px; } }
 
 @media only screen and (max-width: 640px) {
   .background {
@@ -24,7 +26,12 @@
     -o-background-size: cover;
     background-size: cover; }
   .spacer {
-    padding-top: 80px; } }
+    padding-top: 90px; }
+
+    .logo-container .logo{
+      height: 90px;
+    }
+     }
 
 h4 {
   color: white; }
@@ -41,7 +48,8 @@ h4 {
     font-family: Impact, Charcoal, sans-serif;
     font-size: 1.2em;
     font-weight: normal;
-    text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px; }
+    text-shadow: rgba(0, 0, 0, 0.37) 1px 1px 1px;
+    }
 
 .mailing-list {
   padding-top: 40px;
@@ -53,16 +61,16 @@ h4 {
 
 .logo-container {
   text-align: center; }
-  .logo-container .logo {
-    height: 100px; }
+  
 
 .join {
 
   font-family: Impact, Charcoal, sans-serif;
-  font-size : 1.3em;
+  font-size : 1.2em;
 }
 
 .contact-us {
   font-family: Impact, Charcoal, sans-serif;
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */
