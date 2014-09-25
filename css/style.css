@@ -16,7 +16,7 @@
   .spacer {
     padding-top: 300px; }
     .logo-container .logo {
-    height: 100px; } }
+    height: 60px; } }
 
 @media only screen and (max-width: 640px) {
   .background {
@@ -26,10 +26,10 @@
     -o-background-size: cover;
     background-size: cover; }
   .spacer {
-    padding-top: 90px; }
+    padding-top: 100px; }
 
     .logo-container .logo{
-      height: 70px;
+      height: 40px;
     }
      }
 
@@ -38,7 +38,7 @@ h4 {
 
 .title-container {
   text-align: center;
-  padding-top: 120px; }
+  padding-top: 35px; }
   .title-container .title {
     font-family: LocustResistance;
     font-size: 2.5em;
@@ -72,5 +72,10 @@ h4 {
 .contact-us {
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
+}
+
+.mailinglistfont{
+
+  font-family: 'Oswald', sans-serif !important;
 }
 /*# sourceMappingURL=style.css.map */
